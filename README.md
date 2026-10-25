@@ -1,3 +1,13 @@
+> **个人维护 Fork（初始化阶段）**
+>
+> 本仓库基于 [MakkaPakka518/ProxyHub_Emby](https://github.com/MakkaPakka518/ProxyHub_Emby)。
+> `main` 保留稳定基线，`upstream` 跟踪作者原版，自定义 UI 在 `feat/dashboard-ui` 分支适配。
+> **当前尚未移植旧版 UI，也未部署到 Cloudflare；Fork 不等于线上更新。**
+>
+> 维护入口：[分支与合并规范](CONTRIBUTING.md) · [上游同步与回滚](docs/MAINTENANCE.md) · [初始化记录](docs/FORK_CHANGELOG.md)
+
+---
+
 # 𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖 Emby 反代面板
 
 <p align="center">
