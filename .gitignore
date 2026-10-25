@@ -1,0 +1,8 @@
+node_modules/
+preview/
+build-meta.json
+.env
+.env.*
+!.env.example
+*.sql
+*_backup.json

@@ -1,10 +1,10 @@
-> **个人维护 Fork（初始化阶段）**
+> **个人维护 Fork · Dashboard UI v03**
 >
 > 本仓库基于 [MakkaPakka518/ProxyHub_Emby](https://github.com/MakkaPakka518/ProxyHub_Emby)。
-> `main` 保留稳定基线，`upstream` 跟踪作者原版，自定义 UI 在 `feat/dashboard-ui` 分支适配。
-> **当前尚未移植旧版 UI，也未部署到 Cloudflare；Fork 不等于线上更新。**
+> `main` 维护 4.0.4 核心＋Dashboard UI v03，`upstream` 保留作者原版；后续改动通过功能分支和 PR 合入。
+> **自定义 UI 已适配；GitHub 合并不等于线上更新，部署状态需另行确认。**
 >
-> 维护入口：[分支与合并规范](CONTRIBUTING.md) · [上游同步与回滚](docs/MAINTENANCE.md) · [初始化记录](docs/FORK_CHANGELOG.md)
+> 维护入口：[UI 适配与构建](UI_ADAPTATION.md) · [分支与合并规范](CONTRIBUTING.md) · [上游同步与回滚](docs/MAINTENANCE.md) · [初始化记录](docs/FORK_CHANGELOG.md)
 
 ---
 

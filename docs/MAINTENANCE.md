@@ -61,3 +61,10 @@ git merge --no-ff origin/upstream
 2. 代码回滚优先通过 PR 使用 `git revert`；合并提交用 `git revert -m 1 <merge-sha>`，逐项检查反向改动。
 3. 经明确授权后部署之前已验证的 commit/Cloudflare 版本。不要强推 main 来假装回滚。
 4. 代码回退不等于数据库回退；有 D1 迁移时必须单独确认兼容性。Git 不能恢复未备份的线上数据。
+
+
+## 2026-10-25 后续：Dashboard UI v03
+
+已在固定 4.0.4 基线上建立独立 UI 源码、可复现构建和模拟测试，详见 [UI_ADAPTATION.md](../UI_ADAPTATION.md)。初始化阶段的“尚未适配”仅描述初始化当时状态。
+
+更新入口已在面板 HTML 中改为本 Fork main；后台通知仍保留上游原有行为。后续不能仅同步 upstream 就直接上线，必须重新构建、检查及适配。GitHub 本轮不配置自动生产部署或定时任务。
